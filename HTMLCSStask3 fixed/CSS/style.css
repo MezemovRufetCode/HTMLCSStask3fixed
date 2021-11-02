@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face{
+    font-family: OswaldRegular;
+    src: url(../fonts/Oswald-Regular.ttf);
+}
+body{
+    background-image: linear-gradient(rgb(216, 160, 7),rgb(221, 179, 64),rgb(247, 229, 149));
+}
+.heading{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: block;
+    color: rgba(255, 255, 255, 0.938);
+    font-size: 90px;
+    text-align: center;
+    font-family:OswaldRegular;
+    letter-spacing:3px;
+    line-height: 100px;
+}
+.upcont{
+    width: 64%;
+    height: 30px;
+    margin-left:auto;
+    margin-right: auto;
+    background-color: rgb(248, 219, 155);
+}
+.iconup{
+    color:white;
+    padding-top: 6px;
+    padding-left: 6px;
+}
+.container{   
+    width: 64%;
+    height: 667px;
+    margin-left:auto;
+    margin-right: auto;
+    background-color: white;
+}
+.image{
+    width: 100px;
+    border-radius: 50%;
+    display: block;
+    position: relative;
+    top: 30px;
+    bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Yourname{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.description{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+#insidedesc{
+    color: grey;
+}
+.icons{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    word-spacing: 20px;
+}
+#insta:hover{
+    opacity: 0.6;
+    }
+#ytube:hover{
+    opacity: 0.6;
+    }
+#twit:hover{
+opacity: 0.6;
+}
+.socials{
+    text-decoration: none;
+    color: grey;
+}
+.prh:nth-child(1){
+    margin-top: 50px;
+}
+.prh{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+    width: 250px;
+    padding: 15px 100px 15px 100px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    background-color: rgb(62 152 237 / 93%);
+    
+}
+.prh:hover{
+color: rgb(240, 41, 6);
+text-decoration: underline;
+}
